@@ -1,0 +1,534 @@
+/* Root Var */
+
+:root {
+    /* Purple Colors */
+    --purple-100: #DBD1FC;
+    --purple-500: #7551DC;
+
+    /* Yellow Colors */
+    --yellow-100: #F9EEE2;
+    --yellow-500: #FFCC6A;
+
+    /* Neutral Colors */
+    --white: #FFFFFF;
+    --black: #121212;
+
+    /* Typography Sizes */
+    --text-preset-1-size: 3.875rem;
+    --text-preset-1-line-height: 0.935;
+    --text-preset-1-letter-spacing: -0.0483em;
+
+    --text-preset-2-size: 2.5rem;
+    --text-preset-2-line-height: 0.9;
+    --text-preset-2-letter-spacing: -0.05em;
+
+    --text-preset-3-size: 2rem;
+    --text-preset-3-line-height: 0.875;
+    --text-preset-3-letter-spacing: -0.06em;
+
+    --text-preset-4-size: 1.125rem;
+    --text-preset-4-line-height: 1.11;
+    --text-preset-4-letter-spacing: 0em;
+
+    /* Font Families */
+    --font-family-dm-sans: 'DM Sans', sans-serif;
+
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+
+    /* Spacing (Padding / Margin etc) */
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+}
+
+/* End Root Var */
+
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-dm-sans);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+/* End Global Reset */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* C1 Style */
+
+.c1 {
+    background-color: var(--purple-500);
+    color: var(--white);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    width: 21.4375rem;
+}
+
+.c1 h1 {
+    font-weight: var(--font-weight-medium);
+    font-size: 2.875rem;
+    letter-spacing: -0.04em;
+    line-height: 0.91;
+    width: 15.8125rem;
+    margin: 0 auto;
+}
+
+.c1 h1 .sp1 {
+    color: var(--yellow-500);
+}
+
+.c1 h1 .sp2 {
+    font-style: italic;
+}
+
+.c1 img {
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.c1 p {
+    font-size: var(--text-preset-4-size);
+    letter-spacing: var(--text-preset-4-letter-spacing);
+    line-height: var(--text-preset-4-line-height);
+    font-weight: var(--font-weight-regular);
+    margin-top: 8px;
+}
+
+/* End C1 Style */
+
+/* C2 Style */
+
+.c2 {
+    width: 21.4375rem;
+}
+
+.c2 img {
+    width: 19.75rem;
+    margin: 0 auto;
+}
+
+.c2 h3 {
+    text-align: left;
+    padding: 1rem 1rem;
+    font-weight: var(--font-weight-medium);
+    font-size: 1.625rem;
+    letter-spacing: -0.06em;
+    line-height: 0.923;
+    width: 19.4375rem;
+}
+
+/* End C2 Style */
+
+/* C3 Style */
+
+.c3 {
+    background-color: var(--yellow-500);
+    height: 13.5rem;
+    width: 21.4375rem;
+    overflow: hidden;
+    padding: 2rem 1rem 0rem 1rem;
+    gap: 1rem;
+}
+
+.c3 h3 {
+    text-align: left;
+    font-weight: var(--font-weight-medium);
+    font-size: 1.625rem;
+    letter-spacing: -0.06em;
+    line-height: 0.923;
+}
+
+.c3 img {
+    width: 13rem;
+    height: 9.8125rem;
+}
+
+/* End C3 Style */
+
+/* C4 Style */
+
+.c4 {
+    background-color: var(--purple-100);
+}
+
+.c4 h3 {
+    text-align: center;
+    padding: 2rem 2rem 1.5rem 2rem;
+    font-weight: var(--font-weight-medium);
+    font-size: 1.625rem;
+    letter-spacing: -0.06em;
+    line-height: 0.923;
+}
+
+.c4 img {
+    width: 19.25rem;
+    margin: 0 auto;
+}
+
+.c4 p {
+    text-align: center;
+    padding: 1.5rem 2rem 2rem 2rem;
+    font-size: var(--text-preset-4-size);
+    letter-spacing: var(--text-preset-4-letter-spacing);
+    line-height: var(--text-preset-4-line-height);
+    font-weight: var(--font-weight-regular);
+}
+
+/* End C4 Style */
+
+/* C5 Style */
+
+.c5 {
+    background-color: var(--purple-500);
+    padding: 1.5rem;
+    gap: 40px;
+}
+
+.c5 img {
+    width: 14.1875rem;
+    margin: 0 auto;
+}
+
+.c5 h2 {
+    color: var(--white);
+    font-weight: var(--font-weight-medium);
+    font-size: 2rem;
+    letter-spacing: -0.06em;
+    line-height: 0.875;
+    text-align: center;
+    width: 16.0625rem;
+    margin: 0 auto;
+}
+
+/* End C5 Style */
+
+/* C6 Style */
+
+.c6 {
+    padding: 1.5rem;
+    gap: 24px;
+}
+
+.c6 .p1 {
+    color: var(--black);
+    font-weight: var(--font-weight-medium);
+    font-size: 2.875rem;
+    letter-spacing: -0.04em;
+    line-height: 0.91;
+    padding-bottom: 15px;
+}
+
+.c6 p {
+    text-align: start;
+    color: var(--black);
+    font-size: var(--text-preset-4-size);
+    letter-spacing: var(--text-preset-4-letter-spacing);
+    line-height: var(--text-preset-4-line-height);
+    font-weight: var(--font-weight-regular);
+}
+
+.c6 img {
+    width: 11.1875rem;
+}
+
+/* End C6 Style */
+
+/* C7 Style */
+
+.c7 {
+    background-color: var(--yellow-100);
+    padding: 32px;
+    gap: 24px;
+}
+
+.c7 h3 {
+    font-weight: var(--font-weight-medium);
+    font-size: 2rem;
+    letter-spacing: -0.06em;
+    line-height: 0.875;
+    color: var(--black);
+    text-align: left;
+}
+
+.c7 h3 span {
+    color: var(--purple-500);
+    font-style: italic;
+}
+
+.c7 img {
+    width: 11.875rem;
+}
+
+/* End C7 Style */
+
+/* C8 Style */
+
+.c8 {
+    background-color: var(--yellow-500);
+    padding: 1.5rem;
+    gap: 24px;
+}
+
+.c8 h2 {
+    font-weight: var(--font-weight-medium);
+    font-size: 2rem;
+    letter-spacing: -0.06em;
+    line-height: 0.875;
+    color: var(--black);
+    text-align: left;
+}
+
+.c8 img {
+    width: 13.75rem;
+}
+
+/* End C8 Style */
+
+/* Attribution */
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* End Attribution */
+
+
+@media (min-width: 1024px) {
+
+    .container {
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: repeat(6, 120px);
+        grid-template-areas:
+            "c7 c1 c1 c4"
+            "c7 c1 c1 c4"
+            "c7 c2 c3 c4"
+            "c8 c2 c3 c4"
+            "c8 c6 c5 c5"
+            "c8 c6 c5 c5"
+        ;
+    }
+
+    /* C1 Style */
+
+    .c1 {
+        
+        grid-area: c1;
+        padding: 2rem;
+        width: 34.625rem;
+        height: 20.25rem;
+    }
+
+    .c1 h1 {
+        font-size: var(--text-preset-1-size);
+        letter-spacing: var(--text-preset-1-letter-spacing);
+        line-height: var(--text-preset-1-line-height);
+        width: 30rem;
+        margin: 0 auto;
+    }
+
+    /* End C1 Style */
+
+    /* C2 Style */
+
+    .c2 {
+        background-color: var(--yellow-100);
+        margin-left: 6px;
+        margin-top: 55px;
+        grid-area: c2;
+        width: 16rem;
+        height: 15.4375rem;
+        padding: 1.5rem;
+        overflow: hidden;
+        gap: 1rem;
+    }
+
+    .c2 img {
+        margin: 0;
+    }
+
+    .c2 h3 {
+        padding: 0;
+        font-size: var(--text-preset-3-size);
+        letter-spacing: var(--text-preset-3-letter-spacing);
+        line-height: var(--text-preset-3-line-height);
+        width: 12.875rem;
+        height: 7rem;
+    }
+
+    /* End C2 Style */
+
+    /* C3 Style */
+
+    .c3 {
+        margin-left: 12px;
+        margin-top: 54px;
+        grid-area: c3;
+        height: 15.4375rem;
+        width: 16rem;
+        padding: 6rem 1.5rem 0 1.5rem;
+    }
+
+    .c3 h3 {
+        font-size: var(--text-preset-3-size);
+        letter-spacing: var(--text-preset-3-letter-spacing);
+        line-height: var(--text-preset-3-line-height);
+    }
+
+    /* End C3 Style */
+
+    /* C4 Style */
+
+    .c4 {
+        margin-left: 14px;
+        grid-area: c4;
+        width: 16rem;
+        height: 37.6875rem;
+        overflow: hidden;
+    }
+
+    .c4 h3 {
+        font-size: var(--text-preset-3-size);
+        letter-spacing: var(--text-preset-3-letter-spacing);
+        line-height: var(--text-preset-3-line-height);
+        text-align: start;
+    }
+
+    .c4 img {
+        width: 22.3125rem;
+        padding-left: 1.5rem;
+    }
+
+    .c4 p {
+        text-align: start;
+        font-size: var(--text-preset-4-size);
+        letter-spacing: var(--text-preset-4-letter-spacing);
+        line-height: var(--text-preset-4-line-height);
+        font-weight: var(--font-weight-regular);
+    }
+
+    /* End C4 Style */
+
+    /* C5 Style */
+
+    .c5 {
+        margin-top: 34px;
+        margin-left: 14px;
+        grid-area: c5;
+        width: 34rem;
+        height: 15.375rem;
+        gap: 0px;
+        flex-direction: row;
+    }
+
+    .c5 h2 {
+        font-size: var(--text-preset-2-size);
+        letter-spacing: var(--text-preset-2-letter-spacing);
+        line-height: var(--text-preset-2-line-height);
+        text-align: left;
+        margin: auto 0;
+        height: 6.75rem;
+        width: 16rem;
+    }
+
+    /* End C5 Style */
+
+    /* C6 Style */
+
+    .c6 {
+        margin-top: 34px;
+        margin-left: 6px;
+        background-color: var(--yellow-100);
+        grid-area: c6;
+        padding: 1.5rem;
+        gap: 24px;
+        width: 16rem;
+        height: 15.375rem;
+    }
+
+    .c6 .p1 {
+        font-size: var(--text-preset-1-size);
+        letter-spacing: var(--text-preset-1-letter-spacing);
+        line-height: var(--text-preset-1-line-height);
+        padding-bottom: 15px;
+    }
+
+    /* End C6 Style */
+
+    /* C7 Style */
+
+    .c7 {
+        grid-area: c7;
+        width: 16rem;
+        height: 25.9375rem;
+    }
+
+    .c7 h3 {
+        font-size: var(--text-preset-2-size);
+        letter-spacing: var(--text-preset-2-letter-spacing);
+        line-height: var(--text-preset-2-line-height);
+    }
+
+    /* End C7 Style */
+
+    /* C8 Style */
+
+    .c8 {
+        grid-area: c8;
+        gap: 48px;
+        width: 16rem;
+        height: 27.125rem;
+    }
+
+    .c8 h2 {
+        font-size: var(--text-preset-2-size);
+        letter-spacing: var(--text-preset-2-letter-spacing);
+        line-height: var(--text-preset-2-line-height);
+    }
+
+
+    /* End C8 Style */
+
+    /* Attribution */
+
+    .attribution {
+        margin-top: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* End Attribution */
+
+}
