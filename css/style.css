@@ -56,7 +56,7 @@
 }
 
 body {
-    background-color: #f4ebeb;
+    background-color: #dddddd;
     font-family: var(--font-family-dm-sans);
     display: flex;
     flex-direction: column;
